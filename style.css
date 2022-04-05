@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  color: black;
+  font-size: 1.5rem;
+}
+
+body {
+  margin: 0;
+  background: url("https://media.istockphoto.com/photos/cute-ester-bunnies-decor-picture-id1387825052?b=1&k=20&m=1387825052&s=170667a&w=0&h=njNFBdoksmVMbZSZAatLRYG06jmi0spRdWK4HKQV8TM=");
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  /* filter: blur(5px); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  background: #000;
+}
+h1 {
+  font-size: 4rem;
+  margin-top: -10rem;
+}
+
+.countdown-container {
+  display: flex;
+}
+
+.big-text {
+  font-weight: bolder;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+
+.count-el {
+  text-align: center;
+}
+
+.count-el span {
+  font-size: 2rem;
+}
